@@ -2,7 +2,7 @@
 from chromadb import Settings
 class CFG:
     # Specifying Input File
-    source_directory = '../inputs'
+    source_directory = 'inputs'
     
     # Specifying Model Type
     model_type = "openai" # openai or hf.

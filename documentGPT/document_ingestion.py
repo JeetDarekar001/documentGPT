@@ -13,7 +13,7 @@ import time
 from typing import List
 import math
 import os
-from cfg import config
+from .cfg import config
 from loguru import logger
 import glob
 
@@ -221,4 +221,4 @@ def main():
         logger.info(f"Ingestion complete! You can now  query your documents")
         return EMBEDDING_PRICE
     else:
-        return "No Files Exists"
+        return "None"
