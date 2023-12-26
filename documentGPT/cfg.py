@@ -13,7 +13,7 @@ class CFG:
     model_type = "hf" # openai or hf.
     
     # HuggingFace Arguments
-    hf_model_name = ""
+    hf_model_name = "facebook/opt-1.3b"
     hf_text_embedd_model_name = 'sentence-transformers/all-MiniLM-L6-v2'
 
     # Reteriever Engine Arguments
